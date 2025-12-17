@@ -4,32 +4,36 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-    base: "/cryptoflow/",
+  base: "/cryptoflow/",
+
   server: {
-    host: "::",
+    host: true, // simplified "::" → listen on all interfaces
     port: 8080,
     open: true,
   },
+
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
+
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(__dirname, "src"),
     },
   },
+
   build: {
+    target: "esnext", // modern JS output
     rollupOptions: {
       output: {
-        entryFileNames: 'index.js',
-        chunkFileNames: 'chunk-[name].js',
+        entryFileNames: "index.js",
+        chunkFileNames: "chunk-[name].js",
         assetFileNames: (assetInfo) => {
-          if (assetInfo.name && assetInfo.name.endsWith('.css')) {
-            return 'index.css';
+          if (assetInfo.name?.endsWith(".css")) {
+            return "index.css";
           }
-          return 'asset-[name][extname]';
+          return "asset-[name][extname]";
         },
       },
     },
