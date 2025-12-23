@@ -4,32 +4,38 @@ import { Activity, Lock, Zap, Compass, LineChart, Shield } from 'lucide-react';
 export const features = [
   {
     icon: <Activity className="h-6 w-6" />,
-    title: "Real-time Analytics",
-    description: "Monitor market movements with advanced charts and indicators updated in real-time."
+    title: "Advanced Market Insights",
+    description:
+      "Access real-time price data, depth charts, and on-chain analytics to make informed trading decisions."
   },
   {
     icon: <Lock className="h-6 w-6" />,
-    title: "Bank-level Security",
-    description: "Your assets are protected with military-grade encryption and multi-factor authentication."
+    title: "Institutional-Grade Security",
+    description:
+      "Protected by end-to-end encryption, multi-factor authentication, and strict access controls."
   },
   {
     icon: <Zap className="h-6 w-6" />,
-    title: "Instant Execution",
-    description: "Execute trades in milliseconds with our high-performance trading engine."
+    title: "Ultra-Fast Trade Execution",
+    description:
+      "Experience low-latency order matching designed for high-frequency and professional traders."
   },
   {
     icon: <Compass className="h-6 w-6" />,
-    title: "Smart Portfolio",
-    description: "Optimize your crypto holdings with AI-powered portfolio suggestions."
+    title: "AI-Driven Portfolio Intelligence",
+    description:
+      "Smart portfolio insights powered by AI to help balance risk, returns, and diversification."
   },
   {
     icon: <LineChart className="h-6 w-6" />,
-    title: "Price Alerts",
-    description: "Never miss an opportunity with customizable price alerts and notifications."
+    title: "Smart Alerts & Signals",
+    description:
+      "Set intelligent alerts for price movements, volume spikes, and market trends in real time."
   },
   {
     icon: <Shield className="h-6 w-6" />,
-    title: "Cold Storage",
-    description: "Majority of assets stored in offline cold wallets for maximum security."
+    title: "Cold Wallet Asset Protection",
+    description:
+      "The majority of user funds are securely stored in offline cold wallets to minimize risk."
   }
 ];

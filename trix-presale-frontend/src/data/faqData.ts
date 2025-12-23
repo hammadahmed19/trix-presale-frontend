@@ -1,26 +1,37 @@
 export const faqItems = [
   {
-    question: "How secure is CryptoFlow?",
-    answer: "CryptoFlow employs bank-level security measures including 256-bit encryption, cold storage for 95% of assets, two-factor authentication, and regular security audits. Our platform has never been compromised and we maintain a comprehensive insurance policy to protect user funds."
+    question: "What is TRIX?",
+    answer:
+      "TRIX is the native utility token of the TriXchange ecosystem. It is designed to power transactions, access premium features, enable governance participation, and support future ecosystem incentives across trading, automation, and analytics modules."
   },
   {
-    question: "What cryptocurrencies can I trade on CryptoFlow?",
-    answer: "CryptoFlow supports trading of over 50 cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Cardano (ADA), Ripple (XRP), and many more. We regularly add new cryptocurrencies based on market trends and user demand."
+    question: "Is the TRIX presale live?",
+    answer:
+      "Yes. The TRIX presale is currently live with a limited token allocation available at an early-stage price. Once the presale allocation is filled, tokens will progress to the next pricing phase as outlined in the roadmap."
   },
   {
-    question: "What are the fees for using CryptoFlow?",
-    answer: "Our fee structure is transparent and competitive. Basic accounts pay 0.25% per trade, Pro accounts pay 0.1%, and Enterprise accounts pay no trading fees. There are no hidden fees, and we don't charge for deposits. Withdrawal fees vary by cryptocurrency to cover network costs."
+    question: "Which wallets are supported for the presale?",
+    answer:
+      "You can participate in the TRIX presale using popular Web3 wallets such as MetaMask, Trust Wallet, and WalletConnect-compatible wallets. Make sure you are connected to the correct network before purchasing."
   },
   {
-    question: "How do I deposit funds into my CryptoFlow account?",
-    answer: "You can deposit funds via bank transfer, credit/debit card, or by transferring cryptocurrency from another wallet. Bank transfers typically process within 1-3 business days, while card payments and crypto transfers are nearly instant."
+    question: "What cryptocurrencies are accepted during the presale?",
+    answer:
+      "The TRIX presale currently accepts ETH as the primary payment method. Additional supported assets may be introduced in later phases depending on demand and ecosystem expansion."
   },
   {
-    question: "Is CryptoFlow available in my country?",
-    answer: "CryptoFlow is available in over 140 countries worldwide. However, due to regulatory constraints, we cannot serve users from certain jurisdictions. Please check our Terms of Service or contact our support team to verify availability in your specific location."
+    question: "How secure is the TRIX presale?",
+    answer:
+      "Security is a top priority. Smart contracts used for the presale are designed following industry best practices, including minimized permissions and transparent logic. Independent audits and ongoing reviews help ensure contract integrity and user safety."
   },
   {
-    question: "How do I get started with CryptoFlow?",
-    answer: "Getting started is simple. Create an account, complete the verification process (which typically takes less than 10 minutes), deposit funds using your preferred method, and you're ready to start trading. Our intuitive interface is designed to make cryptocurrency trading accessible for beginners while offering powerful tools for experienced traders."
+    question: "When will I receive my TRIX tokens?",
+    answer:
+      "Purchased TRIX tokens will be claimable according to the token distribution schedule detailed in the whitepaper. This may include vesting or phased releases to support long-term ecosystem stability."
+  },
+  {
+    question: "Is TRIX an investment?",
+    answer:
+      "TRIX is a utility token intended for use within the TriXchange ecosystem. It does not represent ownership, equity, or profit rights. Users should review the whitepaper carefully and conduct their own research before participating."
   }
 ];

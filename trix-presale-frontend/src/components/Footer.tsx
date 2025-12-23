@@ -10,11 +10,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <h2 className="text-2xl font-bold text-white mb-4">
-              TR<span className="text-crypto-purple">IX</span>
+              TriX<span className="text-crypto-purple">change</span>
             </h2>
             <p className="text-gray-400 mb-6 max-w-xs">
-              TRIX is a next-generation trading platform empowering traders with
-              intelligent tools, speed, and enterprise-grade security.
+              TriXchange is a next-generation centralized exchange unifying
+              cryptocurrency, forex, and commodities trading in one secure,
+              high-performance ecosystem powered by the TRIX utility token.
             </p>
 
             <div className="flex space-x-4">
@@ -56,27 +57,27 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Products */}
+          {/* Platform */}
           <div>
-            <h3 className="text-white font-medium mb-4">Products</h3>
+            <h3 className="text-white font-medium mb-4">Platform</h3>
             <ul className="space-y-2">
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Trading</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Smart Wallet</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Developer API</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Institutional</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Automation Tools</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Spot Trading</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">P2P Marketplace</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Crypto, Forex & Commodities</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Custodial Wallets</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Trading Fees & Discounts</a></li>
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* TRIX Token */}
           <div>
-            <h3 className="text-white font-medium mb-4">Resources</h3>
+            <h3 className="text-white font-medium mb-4">TRIX Token</h3>
             <ul className="space-y-2">
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Blog</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Guides</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Market Insights</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Documentation</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Support</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Token Utility</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Staking & Rewards</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Presale</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Tokenomics</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Airdrops & Incentives</a></li>
             </ul>
           </div>
 
@@ -84,10 +85,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-medium mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">About TRIX</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Careers</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Press</a></li>
-              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Legal & Privacy</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">About TriXchange</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Roadmap</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Security & Compliance</a></li>
+              <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">White Paper</a></li>
               <li><a href="#!" className="text-gray-400 hover:text-crypto-purple transition-colors">Contact</a></li>
             </ul>
           </div>
@@ -97,17 +98,9 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} TRIX. All rights reserved.
+              &copy; {currentYear} TriXchange. All rights reserved.
               <span className="mx-1">•</span>
-              Distributed by{" "}
-              <a
-                href="https://themewagon.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="text-crypto-purple hover:underline"
-              >
-                ThemeWagon
-              </a>
+              TRIX is a utility token and does not represent equity or ownership.
             </p>
 
             <div className="flex space-x-6">
@@ -118,7 +111,7 @@ const Footer = () => {
                 Privacy
               </a>
               <a href="#!" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">
-                Cookies
+                Risk Disclosure
               </a>
             </div>
           </div>
